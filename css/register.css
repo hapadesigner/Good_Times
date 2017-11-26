@@ -63,6 +63,7 @@ button {
   border: none;
   padding: 24px 72px;
   font-family: 'HK-Grotesk-Bold', sans-serif;
+  font-weight: 600;
 }
 
 .button-small {
@@ -74,4 +75,10 @@ button {
   background-color: transparent;
   border: solid 2px var(--orange);
   color: var(--orange);
+}
+
+
+.StripeElement {
+  background-color: white;
+  padding: 12px;
 }

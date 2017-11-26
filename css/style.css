@@ -7,7 +7,7 @@
 
 body {
   font-family: 'HK-Grotesk-Medium', sans-serif;
-  font-size: 18px;
+  font-size: 1.25rem;
   line-height: 1.5;
   color: #414141;
   background-image: url(../images/background.jpg);
@@ -31,12 +31,12 @@ a {
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #fff;
   font-family: 'HK-Grotesk-Bold', sans-serif;
-  font-size: 110px;
+  font-size: 6rem;
   line-height: 1;
 }
 
 .heading-orange {
-  font-size: 120px;
+  font-size: 6.3rem;
   -webkit-text-stroke-color: var(--orange);
   margin-bottom: 3rem;
   color: var(--orange);
@@ -52,18 +52,19 @@ a {
 
 blockquote {
   color: var(--orange);
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 .cite {
   display: inline-block;
+  font-size:1.3rem;
   color: var(--orange);
   line-height: 1;
-  padding: 24px 18px;
+  padding: 1.5rem 1.25rem;
   border-radius: 100%;
   border: solid 3px var(--orange);
   text-transform: uppercase;
-  margin-top: 12px;
+  margin-top: 0.8rem;
 }
 
 .speaker-image {
@@ -99,15 +100,15 @@ blockquote {
 }
 
 .schedule {
-  padding: 48px 24px;
+  padding: 2.6rem 1.3rem;
 }
 
 .schedule-time {
   color: var(--orange);
-  font-size: 36px;
+  font-size: 2rem;
   font-family: 'HK-Grotesk-Bold', sans-serif;
   line-height: 1;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .schedule-day {
@@ -117,7 +118,7 @@ blockquote {
   text-orientation: sideways;
   /* then we rotate the text to flip it over */
   transform: rotate(180deg);
-  padding: 24px;
+  padding: 1.3rem;
   color: #fff;
   line-height: 1;
   background-color: var(--orange);
